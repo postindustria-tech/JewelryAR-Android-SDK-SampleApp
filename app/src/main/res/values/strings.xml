@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JewelryArSdkSample</string>
+    <string name="try_on_ring1">Try on ring #1</string>
+    <string name="try_on_ring2">Try on ring #2</string>
+</resources>
