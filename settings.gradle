@@ -11,12 +11,10 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven {
-            name = "GitlabRegistry"
             url 'https://gitlab.postindustria.com/api/v4/projects/271/packages/maven'
             credentials(HttpHeaderCredentials) {
-                name = "Private-Token"
-                // Put token into personal gradle.properties file
-                value = gitlabPrivateToken
+                name = "Deploy-Token"
+                value = "VWT_1fSVPf17-tcxYSoP"
             }
             authentication {
                 header(HttpHeaderAuthentication)
@@ -25,4 +23,9 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "JewelryArSdkSample"
-include ':app'
+
+include ':sample-kotlin'
+include ':sample-java'
+include ':sample-single-activity'
+include ':sample-instantiation-through-code'
+

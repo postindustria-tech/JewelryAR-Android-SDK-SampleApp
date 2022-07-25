@@ -11,7 +11,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/sample-instantiation-through-code" />
+            <option value="$PROJECT_DIR$/sample-java" />
+            <option value="$PROJECT_DIR$/sample-kotlin" />
+            <option value="$PROJECT_DIR$/sample-single-activity" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

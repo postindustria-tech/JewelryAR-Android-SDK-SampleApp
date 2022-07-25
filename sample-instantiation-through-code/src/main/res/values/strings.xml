@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Jewelry AR Sample through Code</string>
+    <string name="try_on_ring1">Try on ring #1</string>
+    <string name="try_on_ring2">Try on ring #2</string>
+    <string name="neural_network_loading_is_in_progress">Neural network loading is in progress…</string>
+    <string name="ring_loading_is_in_progress">Ring loading is in progress…</string>
+</resources>
